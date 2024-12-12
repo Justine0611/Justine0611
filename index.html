@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+	<link rel="stylesheet" href="css/cookies.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/taille.css">
+<!--
+    
+TemplateMo 556 Catalog-Z
+
+https://templatemo.com/tm-556-catalog-z
+
+-->
+</head>
+<body>
+
+	<div id="cookie-banner">
+            <div id="cookie-content">
+                <div id="cookie-paragraph1">Voici ci notre politique d'utilisation des cookies :<br>
+                    <p id="cookie-paragraph2">
+                        Ce site web utilise des cookies pour améliorer l'expérience de navigation de nos utilisateurs.<br>
+                        Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à comprendre comment vous utilisés notre site.<br>
+                        Ils sont utilisés à diverses fins, telles que l'analyse des données, la personnalisation de notre contenu, et la publicité ciblée.
+                    </p>
+                    <p id="cookie-paragraph3">
+                        En utilisant notre site, vous consentez à l'utilisation de cookies conformément à notre politique de cookies.<br>
+                        Si vous n'acceptez pas l'utilisation de cookies, vous pouvez désactiver les cookies dans les paramètres de votre navigateur.<br>
+                    </p>
+                </div>
+                <button class="btn-refuser" id="cookieButton" onclick="cookiebarRefuser()">Refuser les cookie</button>
+                <button class="btn-accepter" id="cookieButton" onclick="cookiebarAccepter()">Accepter les cookie</button>
+ 
+            </div> 
+	</div>
+    <!-- Page Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-film mr-2"></i>
+                Expo JO et Pierre de Coubertin
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </div>
+        </div>
+    </nav>
+
+    <div class="tm-hero d-flex justify-content-center align-items-center" data-parallax="scroll" data-image-src="img/Pierre de Coubertin.jpg">
+    </div>
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-6 tm-text-primary">
+                Les images des JO
+            </h2>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+                <form action="" class="tm-text-primary">
+                    Page <input type="text" value="1" size="1" class="tm-input-paging tm-text-primary"> a 1
+                </form>
+            </div>
+        </div>
+        <div class="row tm-mb-90 tm-gallery">
+        	<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/2 mecs qui apllaudisse pour club France.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Club France</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/2 mecs qui louches quand ils ont eu la médaille.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>2 champions médaillé</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/2 meufs patriote.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>2 championne fiers de leurs pays</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/asiate sans main.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Une jeune championne qui célèbre ça victoire</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/beacoup de mesc qui cours.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>marathon</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/des gens en 3D (moches).jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>image d'animation pour les JO</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/des gens qui regarde l'épreuve d'escrime.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>épreuve d'escrime</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/drapeau francais qui gache la vue.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>épreuve de lutte</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/drapeaux du monde.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Les différents supporters du monde aggitant leurs drapeaux</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/épreuve de natation.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>L'épreuve de natation</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/la Tour Eiffeil qui dit Merci.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>La tour Eiffeil</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/le wokisme en 1 image.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>groupe de personnes unie</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/LEBRON JAAAAAMES (ceux qui savent).jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Le Grand Lebron James</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/Léon Marchand le raciste avec un sourire fier.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Léon Marchand content de ça victoire</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/Léon Marchand le raciste qui fait un check.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Léon qui fait un check à ses fans</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/les mecs sont devenus noir a cause du soleil.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Le marathon sous le soleil</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>  
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/mecs qui cours.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Le marathon de profile</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/ministre des sports en discours (il c'est fais viré après).jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Le ministre des sports fesant un discours</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/pub JO pas drole.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>La pub du site internet des JO</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/public avec  drapeaux.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Public francais qui sont fiers de leurs pays</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/un black qui cours en Angleterre.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Kipchoge qui gagne la première place</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/un black qui croit que la médaille c'est du choco.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>Teddy Riner qui savoure ça médaille</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/un mec qui film la tour Eiffeil alors que il y a les JO m'enfin bref.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>un spectateur qui prend des souvenirs de l'évenement</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5 image-container hidden-image">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/un mec transporte le drapeau des JO dans la foule.jpg" alt="Image" class="img-fluid responsive-image">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>un homme qui transporte le drapeau des JO</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+        </div> <!-- row -->
+        <div class="row tm-mb-90">
+            <div class="col-12 d-flex justify-content-between align-items-center tm-paging-col">
+                <div class="tm-paging d-flex">
+                    <a href="javascript:void(0);" class="active tm-paging-link">1</a>
+                </div>
+            </div>            
+        </div>
+    </div>
+<script>
+// JavaScript pour afficher 10 images aléatoires parmi 24
+document.addEventListener('DOMContentLoaded', function () {
+    // Sélectionner toutes les images
+    const images = document.querySelectorAll('.image-container');
+
+    // Vérifier qu'il y a au moins 10 images
+    if (images.length < 10) {
+        console.error("Pas assez d'images pour en afficher 10 aléatoirement !");
+        return;
+    }
+
+    // Mélanger les images de façon aléatoire
+    const shuffledImages = Array.from(images).sort(() => Math.random() - 0.5);
+
+    // Cacher toutes les images au départ
+    images.forEach(image => image.classList.add('hidden-image'));
+
+    // Afficher uniquement les 10 premières images après le mélange
+    for (let i = 0; i < 10; i++) {
+        shuffledImages[i].classList.remove('hidden-image');
+    }
+});
+</script>
+	</body>
+	<section id="video-detail">
+		<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidéo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+
+
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Pierre de Coubertin : grandeur et mystères du père des JO</h2>
+        </div>
+        <div class="row tm-mb-90">            
+            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12">
+                <video autoplay muted loop controls id="tm-video">
+                    <source src="video/Meilleurs moments du documentaire _ _Pierre de Coubertin et les Mystères des JO_ par Kisayang Prod.mp4" type="video/mp4">
+                </video>  
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+					<h3 class="tm-text-gray-dark mb-3">Critique</h3>
+                    <p class="mb-4">
+Le documentaire réussit à équilibrer la célébration et la critique. D’un côté, il souligne les réalisations révolutionnaires de Coubertin dans la promotion du sport comme outil éducatif et social. D’un autre côté, il n’élude pas les aspects controversés, notamment son adhésion à des idées raciales et sexistes de son époque, ce qui peut choquer les sensibilités contemporaines. La narration dynamique et les enquêtes sur le terrain apportent une dimension captivante, bien que certains critiques jugent que le film aurait pu approfondir davantage certaines thématiques complexes.
+En conclusion, ce documentaire est une plongée fascinante dans la vie d’une figure historique ambiguë, à la fois admirée et critiquée. Il illustre comment le passé olympique est intimement lié aux enjeux politiques et sociaux de son temps.
+                    </p>                    
+                    <div class="mb-4 d-flex flex-wrap">
+                        <div class="mr-4 mb-2">
+                            <span class="tm-text-gray-dark">Resolution: </span><span class="tm-text-primary">1920x1080</span>
+                        </div>
+                        <div class="mr-4 mb-2">
+                            <span class="tm-text-gray-dark">Format: </span><span class="tm-text-primary">MP4</span>
+                        </div>
+                        <div>
+                            <span class="tm-text-gray-dark">Duration: </span><span class="tm-text-primary">00:54:25</span>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h3 class="tm-text-gray-dark mb-3">Résumer</h3>
+                        <p>Le documentaire examine les contributions majeures de Pierre de Coubertin, notamment la relance des Jeux olympiques en 1896, tout en éclairant les aspects problématiques de son héritage. Il met en lumière son opposition à la participation des femmes dans le sport de haut niveau, ses positions pro-colonialistes, et son soutien controversé aux Jeux olympiques de Berlin de 1936 sous le régime nazi. Malgré ces zones d’ombre, il est présenté comme un architecte de l’olympisme moderne, ayant poursuivi son idéal de fraternité et de pacification universelle contre vents et marées.
+Les témoignages d’historiens, de biographes et d’héritiers apportent une perspective nuancée, explorant les réussites et les contradictions d’un homme qui reste marginalisé dans la mémoire collective française malgré son impact mondial.</p>
+                    </div>
+                    <div>
+                        <h3 class="tm-text-gray-dark mb-3">Tags</h3>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">JO</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Coubertin</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">France</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">sport</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Documentaire</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Histoire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</body>
+	</section>
+	<section id="video-detail-2">
+		<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+</head>
+<body>
+    <div class="container-fluid tm-container-content tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">Note du commissaire</h2>
+        </div>
+		<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/note commissaire 1.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>première note du commissaire</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-5">
+                <figure class="effect-ming tm-video-item">
+                    <img src="img/note commissaire 2.jpg" alt="Image" class="img-fluid">
+                    <figcaption class="d-flex align-items-center justify-content-center">
+                        <h2>deuxième note du commissaire</h2>
+                    </figcaption>                    
+                </figure>
+                <div class="d-flex justify-content-between tm-text-gray">
+                    <span class="tm-text-gray-light"></span>
+                    <span></span>
+                </div>
+            </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                <div class="tm-bg-gray tm-video-details">
+					<h3 class="tm-text-gray-dark mb-3">Note du commissaire en francais</h3>
+                    <p class="mb-4">
+Lorsque le directeur du Musée, m’a fait cette demande, particulière je l’avoue, d’une exposition au nom de :« L’OLYMPISME, 32 jours avec Pierre de Coubertin : grandeur et mystères du père des JO modernes », je me suis demandé pourquoi ? 
+Non pas pourquoi moi, excusez mon impertinence, mais, pourquoi 32 ? 
+Hasard du calendrier ? 
+Appel déguisé à la France et donc à l’origine de Pierre de Coubertin ? 
+Ce trait d’humour d’ailleurs, aurait été, je crois, apprécié de l’homme. Ou peut-être est-ce, tout simplement, le chiffre porte-bonheur d’un musée si sympathique où tout est fait pour offrir à chacun une pause temporelle et artistique ? 
+Mais, après tout, qu’importe ! 
+Pierre disait : «L’Olympisme n’est point un système, c’est un état d’esprit. 
+Les formules les plus diverses peuvent s’en pénétrer et il n’appartient ni à une race ni à une époque de s’en attribuer le monopole exclusif.»
+En me mettant au travail je me suis, tout d’abord, laissé emporter par mes émotions et, associées à Pierre de Coubertin, elles ne manquent pas. 
+Permettez-moi deux conseils pour cette exposition : tout d’abord, laisser vos sens s’exprimer, et ensuite, comme pour tout voyage dans l’imaginaire d’un autre, laisser votre joie et votre confiance dans la vie prendre le dessus.
+Thomas Bach, Le président du CIO(Comité International Olympique) en hommage à Pierre de Coubertin, déclarait, le 23 juin 2024 à l'université de la Sorbonne : « On n’est pas là pour glorifier l’homme, mais pour comprendre l personnage ». 
+Pensez-y durant l’exposition.
+C’est à ce voyage dans le quotidien, faussement banal, que vous convie cette exposition. 
+Laissez votre moi cartésien au vestiaire, pour faire émerger votre âme d’enfant, votre sens de la dérision. 
+Mais, en même temps, gardez bien précieusement votre sens du questionnement en éveil. 
+Celui qui vous fait sortir de votre zone de confort, celui qui vous permet d’appréhender une situation sous un angle qui n’est pas forcément celui de la bienséance ou celui attendu. 
+Bref laissez-vous happer par l’univers de cet homme qui a croqué la vie avec une ferveur indéniable, il était un idéaliste de l'excellence sportive et de l'unité internationale, malgré une fin de vie dans la solitude et la pauvreté, par ce travailleur infatigable et... puissions-nous nous y retrouver.
+Au plaisir de vous rencontrer tous nombreux…
+Pablo Voltany, 
+commissaire exposition « L’OLYMPISME, 32 jours avec Pierre de Coubertin : grandeur et mystères du père des JO modernes » 
+                    </p>
+	<style>
+        body {
+            font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+                    <div class="mb-4">
+                        <h3 class="tm-text-gray-dark mb-3">Commissioner's note</h3>
+                        <p>When the director of the Museum made me this request, a special one I admit, for an exhibition called: "OLYMPISM, 32 days with Pierre de Coubertin: grandeur and mysteries of the father of the modern Olympics", I asked myself why?
+Not why me, excuse my impertinence, but why 32?
+A coincidence of the calendar?
+A disguised appeal to France and therefore to the origin of Pierre de Coubertin?
+This touch of humor, moreover, would have been, I believe, appreciated by the man. Or perhaps it is simply the lucky number of such a nice museum where everything is done to offer everyone a temporal and artistic break?
+But, after all, what does it matter!
+Pierre said: "Olympism is not a system, it is a state of mind. The most diverse formulas can be penetrated by it and it is not up to any race or era to claim an exclusive monopoly on it."
+As I got to work, I first let myself be carried away by my emotions and, associated with Pierre de Coubertin, they are not lacking.
+Allow me two pieces of advice for this exhibition: first of all, let your senses express themselves, and then, as with any journey into the imagination of another, let your joy and your confidence in life take over.
+Thomas Bach, President of the IOC (International Olympic Committee) in homage to Pierre de Coubertin, declared on June 23, 2024 at the Sorbonne University: "We are not here to glorify the man, but to understand the character".
+Think about it during the exhibition.
+It is to this journey into the everyday, falsely banal, that this exhibition invites you.
+Leave your Cartesian self in the locker room, to let your child's soul emerge, your sense of derision.
+But, at the same time, keep your sense of questioning alive.
+The one that takes you out of your comfort zone, the one that allows you to understand a situation from an angle that is not necessarily that of propriety or the one expected.
+In short, let yourself be drawn into the world of this man who seized life with undeniable fervor, he was an idealist of sporting excellence and international unity, despite an end of life in solitude and poverty, by this tireless worker and... may we find ourselves there.
+Looking forward to meeting you all in large numbers...
+Pablo Voltany,
+curator of the exhibition "OLYMPISM, 32 days with Pierre de Coubertin: grandeur and mysteries of the father of the modern Olympics"</p>
+                    </div>
+	<style>
+        body {
+            font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+                    <div>
+                        <h3 class="tm-text-gray-dark mb-3">Tags</h3>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">JO</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Coubertin</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">France</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">sport</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Documentaire</a>
+                        <a href="#" class="tm-text-primary mr-4 mb-2 d-inline-block">Histoire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	<style>
+        body {
+            font-family: 'Brush Script MT', cursive;
+        }
+    </style>
+</div>
+</body>
+	</section>
+	<section id="about">
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos de Coubertin</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+
+
+    <div class="container-fluid tm-mt-60">
+        <div class="row mb-4">
+            <h2 class="col-12 tm-text-primary">
+                A propos de Coubertin
+            </h2>
+        </div>
+        <div class="row tm-mb-74 tm-row-1640">            
+            <div class="col-lg-5 col-md-6 col-12 mb-3">
+                <img src="img/Pierre de Coubertin.jpg" style="width: 70vw; min-width: 150px;" alt="Image" class="img-fluid">
+            </div>
+            <div class="col-lg-7 col-md-6 col-12">
+                <div class="tm-about-img-text">
+                    <p class="mb-4">
+                  Pierre de Coubertin, né à Paris le 1er janvier 1863 dans une famille aristocratique, est une figure majeure de l’histoire du sport et de l’éducation. Issu d’un milieu conservateur, il se détourne des traditions familiales pour s’intéresser aux réformes sociales et éducatives. Fasciné par le système éducatif britannique, il y découvre l’importance du sport dans la formation des jeunes. Influencé par Thomas Arnold, directeur du collège de Rugby, il perçoit le sport comme un outil pour développer le corps, l’esprit et les valeurs morales telles que la discipline et le respect.
+Coubertin est surtout connu pour avoir relancé les Jeux olympiques. Dans les années 1890, il milite activement pour leur restauration, considérant ces jeux comme un moyen de promouvoir la paix et l’amitié entre les nations. En 1894, il organise un congrès à la Sorbonne, à Paris, où il fonde le Comité international olympique (CIO). Les premiers Jeux olympiques modernes ont lieu à Athènes en 1896, réunissant 14 nations et environ 250 athlètes. Cet événement, bien que modeste, marque le début d’une tradition mondiale.
+Tout au long de sa vie, Coubertin défend les valeurs fondamentales des Jeux : l’excellence, l’amitié et le respect. Sa devise, Citius, Altius, Fortius ("Plus vite, plus haut, plus fort"), reflète l’esprit de dépassement qu’il souhaite inculquer aux athlètes. Il insiste sur l’importance de la participation plutôt que de la victoire, résumée dans sa célèbre phrase : "L’essentiel, c’est de participer."
+Malgré ses réalisations, il rencontre de nombreuses difficultés, notamment le scepticisme des dirigeants et les problèmes de financement. Il consacre néanmoins toute sa vie à ses idéaux, soutenu par son épouse Marie Rothan, qu’il épouse en 1895. Ils n’ont pas d’enfants, ce qui lui permet de se dévouer pleinement à son œuvre.
+Pierre de Coubertin démissionne de la présidence du CIO en 1925 mais reste un fervent défenseur des valeurs olympiques. Il écrit abondamment sur l’éducation et le sport, laissant une œuvre intellectuelle riche. Il meurt à Genève le 2 septembre 1937, à 74 ans. Selon ses souhaits, son cœur est enterré à Olympie, en Grèce, symbolisant son attachement aux Jeux anciens.</p>
+                </div>                
+            </div>
+        </div>
+            <div class="col-md-6 col-12">
+                <div class="tm-about-2-col">
+                    <h2 class="tm-text-primary mb-4">
+                        l'Héritage de Coubertin
+                    </h2>
+                    <p class="mb-4">
+Son héritage est immense : les Jeux olympiques modernes sont devenus un événement mondial incarnant les idéaux de paix et de coopération qu’il a promus. Des écoles, des stades et des institutions portent son nom, perpétuant la mémoire d’un homme dont la vision a transformé le sport en un outil de rapprochement entre les peuples.
+                    </p>
+                </div>                
+            </div>     
+        </div>
+    </div>
+	</section>
+	<section id="contact">
+	<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacter l'exposition</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/templatemo-style.css">
+</head>
+<body>
+    <div class="container-fluid tm-mt-60">
+        <div class="row tm-mb-50">
+            <div class="col-lg-4 col-12 mb-5">
+                <h2 class="tm-text-primary mb-5">Page de contacte</h2>
+                <form id="contact-form" action="" method="POST" class="tm-contact-form mx-auto">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control rounded-0" placeholder="Nom" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="contact-select" name="inquiry">
+                            <option value="-">Sujet</option>
+                            <option value="sales">Réservation</option>
+                            <option value="creative">Renseignement</option>
+                            <option value="uiux">SAV</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Votre Message" required=></textarea>
+                    </div>
+
+                    <div class="form-group tm-text-right">
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                    </div>
+                </form>                
+            </div>
+            <div class="col-lg-4 col-12 mb-5">
+                <div class="tm-address-col">
+                    <h2 class="tm-text-primary mb-5">L'Adresse de l'exposition</h2>
+                    <address class="tm-text-gray tm-mb-50">
+                        Palais Lumière Évian<br>
+                        Quai Charles-Albert Besson.
+                    </address>
+					 <div class="col-lg-4 col-12 mb-5">
+                <div class="tm-address-col">
+                    <h2 class="tm-text-primary mb-5">Information sur l'exposition</h2>
+                    <ul class="tm-contacts">
+                        <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Email: courrier@ville-evian.fr
+                            </a>
+                        </li>
+						 <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Tous publics : Plein tarif 9,00 €.
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Tous publics : Tarif réduit 7,00 €.
+                            </a>
+                        </li>
+						 <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Visites commentées tous les jours à 14h30 pour les individuels : 4 € en plus du ticket d'entrée.
+                            </a>
+                        </li>
+						 <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Visites thématiques : 4 € en supplément du ticket d'entrée.
+                            </a>
+                        </li>
+						 <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Jeunes / Familles : Gratuit pour les moins de 16 ans et les perssones en situation de handicap.
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Tarif réduit : Étudiants, familles nombreuses, membres du club « Petit Léonard » : 7,00 €.
+Parcours découverte tous les mercredis à 16h pour les enfants (-10 ans) accompagnés de leurs parents : 7,00 € (adulte).
+« Petit jeu du Palais Lumière » (6-12 ans) : livret ludique disponible à l’accueil.
+Ateliers pédagogiques :
+5 € : enfant-adolescent / atelier et en famille.
+8,00 € : adulte (voir détail dans « en regard de l’exposition »).
+                            </a>
+                        </li>
+						 <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Groupes : Tarif réduit de 7,00 € pour les groupes d’au moins 10 personnes.
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Visites commentées sur réservation : 55,00 € / groupe de 10 à 30 personnes, en plus du ticket d’entrée.
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Scolaires / Enseignants : Gratuit pour les groupes scolaires.
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-envelope"></i>
+                                Visites commentées sur réservation : 55,00 € / groupe de 10 à 30 élèves.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-phone"></i>
+                                Teléphone: 04 50 83 15 90
+                            </a>
+                        </li>
+						<li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-phone"></i>
+                                mail: service.culturel@ville-evian.fr
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tm-text-gray">
+                                <i class="fas fa-globe"></i>
+                                URL: https://ville-evian.fr/palais-lumiere/
+                            </a>
+                        </li>
+                    </ul>
+                </div>                
+            </div>
+    </div>
+	</section>
+    <footer class="tm-bg-gray pt-5 pb-3 tm-text-gray tm-footer">
+        <div class="container-fluid tm-container-small">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">A propos de nous</h3>
+                    <p>Nous vous invitons a prendre pare à notre exposition dans le Palais Lumière d'Evian-Les-Bains sur l'inventeur des Jeux Olympiques moderne: Pierre de Coubertin.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <h3 class="tm-text-primary mb-4 tm-footer-title">Nos liens</h3>
+                    <ul class="tm-footer-links pl-0">
+                        <li><a href="#">Afficher</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Notre Compagnie</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
+                    <ul class="tm-social-links d-flex justify-content-end pl-0 mb-5">
+                        <li class="mb-2"><a href="https://facebook.com"><i class="fab fa-facebook"></i></a></li>
+                        <li class="mb-2"><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li class="mb-2"><a href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>
+                        <li class="mb-2"><a href="https://pinterest.com"><i class="fab fa-pinterest"></i></a></li>
+                    </ul>
+                    <a href="#" class="tm-text-gray text-right d-block mb-2">Conditions générales d'utilisation</a>
+                    <a href="#" class="tm-text-gray text-right d-block">politique de confidentialité</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
+                    Droits 2024 Théo Escobar. Tout droits réservé
+                </div>
+                <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
+                    Designé par Théo Escobar
+                </div>
+            </div>
+        </div>
+    </footer>
+	<script src="js/cookies.js"></script> 
+	    
+    <script src="js/plugins.js"></script>
+    <script>
+        $(window).on("load", function() {
+            $('body').addClass('loaded');
+        });
+    </script>
+</body>
+</html>
